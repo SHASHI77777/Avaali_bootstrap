@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shashi Portfolio</title>
+
+    <!-- Add Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="desktop-nav">
+            <div class="container">
+                <a class="navbar-brand" href="./index.html">Shashikant Singh</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Profile Section -->
+    <section id="profile" class="container-fluid bg-white py-5">
+        <div class="row align-items-center">
+            <div class="col-lg-6 col-md-12 text-center">
+                <!-- Profile Picture Container -->
+                <div class="section__pic-container d-flex justify-content-center align-items-center">
+                    <img src="./assets/1709748834288.jpg" alt="Profile Picture" class="img-thumbnail" />
+                </div>
+            </div>
+            <div class="col-lg-5 text-center">
+                <p class="h4">Hello, I'm</p>
+                <h1 class="display-4">Shashikant Singh</h1>
+                <p class="text-success fs-3">Associate Software Engineer</p>
+                <div class="btn-group">
+                    <button class="btn btn-primary mx-2 rounded-pill"
+                        onclick="window.open('./assets/Shashikant_Fresher_IT.pdf')">
+                        Download CV
+                    </button>
+                    <button class="btn btn-secondary rounded-pill" onclick="location.href='./#contact'">
+                        Contact Info
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="container py-3 text-center">
+        <h1 class=" fs-2 b">About Me</h1>
+        <!-- Description Section -->
+        <div class="description px-3">
+            <p class="fs-5 text-primary">
+                I am currently working as an Associate Software Engineer at Avaali Solutions Pvt Ltd. I hold a
+                B.Tech degree in Information Technology with a strong focus on front-end development and database
+                management. My expertise includes crafting dynamic, responsive web interfaces using technologies
+                like HTML5, CSS, JavaScript, and React.js, as well as managing databases with SQL. I am passionate
+                about leveraging my technical skills and creativity to deliver innovative solutions that drive
+                success and enhance user experiences.
+            </p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="container py-5 text-center">
+        <h1 class=" fs-2 ">Skills</h1>
+        <div class="row row-cols-1 row-cols-md-2 g-4 mt-4">
+            <!-- Frontend Skills Card -->
+            <div class="col">
+                <div class="card shadow-sm h-100 border-0">
+                    <div class="card-body">
+                        <h3 class="card-title mb-4 text-primary">Frontend Development</h3>
+                        <div class="d-flex align-items-center mb-3">
+                            <i class="bi bi-file-code-fill me-3 text-danger fs-3"></i>
+                            <div class="w-100">
+                                <p class="mb-1 fw-bold">HTML5</p>
+                                <div class="progress">
+                                    <div class="progress-bar bg-danger" role="progressbar" style="width: 90%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center mb-3">
+                            <i class="bi bi-palette-fill me-3 text-warning fs-3"></i>
+                            <div class="w-100">
+                                <p class="mb-1 fw-bold">CSS</p>
+                                <div class="progress">
+                                    <div class="progress-bar bg-warning" role="progressbar" style="width: 85%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center mb-3">
+                            <i class="bi bi-bootstrap-fill me-3 text-purple fs-3"></i>
+                            <div class="w-100">
+                                <p class="mb-1 fw-bold">Bootstrap</p>
+                                <div class="progress">
+                                    <div class="progress-bar bg-purple" role="progressbar" style="width: 80%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center mb-3">
+                            <img src="./assets/icons8-javascript-48.png" alt="React Logo" class="me-3"
+                                style="width: 30px; height: 30px;">
+                            <div class="w-100">
+                                <p class="mb-1 fw-bold">JavaScript</p>
+                                <div class="progress">
+                                    <div class="progress-bar bg-primary" role="progressbar" style="width: 75%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <img src="./assets/icons8-react-40.png" alt="React Logo" class="me-3"
+                                style="width: 30px; height: 30px;">
+                            <div class="w-100">
+                                <p class="mb-1 fw-bold">React JS</p>
+                                <div class="progress">
+                                    <div class="progress-bar bg-info" role="progressbar" style="width: 70%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Backend Skills Card -->
+            <div class="col">
+                <div class="card shadow-sm h-100 border-0">
+                    <div class="card-body">
+                        <h3 class="card-title mb-4 text-primary">Backend & Database</h3>
+                        <div class="d-flex align-items-center mb-3">
+                            <i class="bi bi-database-fill me-3 text-dark fs-3"></i>
+                            <div class="w-100">
+                                <p class="mb-1 fw-bold">SQL</p>
+                                <div class="progress">
+                                    <div class="progress-bar bg-dark" role="progressbar" style="width: 85%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center mb-3">
+                            <i class="bi bi-cup-hot-fill me-3 text-brown fs-3"></i>
+                            <div class="w-100">
+                                <p class="mb-1 fw-bold">Core Java</p>
+                                <div class="progress">
+                                    <div class="progress-bar bg-brown" role="progressbar" style="width: 80%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center mb-3">
+                            <i class="bi bi-gear-fill me-3 text-success fs-3"></i>
+                            <div class="w-100">
+                                <p class="mb-1 fw-bold">JDBC</p>
+                                <div class="progress">
+                                    <div class="progress-bar bg-success" role="progressbar" style="width: 75%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <i class="bi bi-server me-3 text-secondary fs-3"></i>
+                            <div class="w-100">
+                                <p class="mb-1 fw-bold">DBMS</p>
+                                <div class="progress">
+                                    <div class="progress-bar bg-secondary" role="progressbar" style="width: 70%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <i class="bi bi-github me-3 fs-3"></i>
+                            <div class="w-100">
+                                <p class="mb-1 fw-bold">Github</p>
+                                <div class="progress">
+                                    <div class="progress-bar bg-info" role="progressbar" style="width: 70%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="container py-3 text-center">
+        <h1 class=" fs-2 mb-3"> Projects</h1>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./assets/Vm-Allocation-and-Energy-Minimzation-cloudsim-3.0.3.jpg" alt="Project 1"
+                        class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title">VM Allocation and Energy Minimization</h5>
+                        <a href="https://github.com/SHASHI77777" class="btn btn-primary">GitHub</a>
+                        <a href="https://github.com/SHASHI77777" class="btn btn-secondary">Live Demo</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="./assets/Vm-Allocation-and-Energy-Minimzation-cloudsim-3.0.3.jpg" alt="Project 2"
+                        class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title">VM Allocation and Energy Minimization</h5>
+                        <a href="https://github.com/SHASHI77777" class="btn btn-primary">GitHub</a>
+                        <a href="https://github.com/SHASHI77777" class="btn btn-secondary">Live Demo</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./assets/Vm-Allocation-and-Energy-Minimzation-cloudsim-3.0.3.jpg" alt="Project 3"
+                        class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title">VM Allocation and Energy Minimization</h5>
+                        <a href="https://github.com/SHASHI77777" class="btn btn-primary">GitHub</a>
+                        <a href="https://github.com/SHASHI77777" class="btn btn-secondary">Live Demo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./assets/Vm-Allocation-and-Energy-Minimzation-cloudsim-3.0.3.jpg" alt="Project 1"
+                        class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title">VM Allocation and Energy Minimization</h5>
+                        <a href="https://github.com/SHASHI77777" class="btn btn-primary">GitHub</a>
+                        <a href="https://github.com/SHASHI77777" class="btn btn-secondary">Live Demo</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./assets/Vm-Allocation-and-Energy-Minimzation-cloudsim-3.0.3.jpg" alt="Project 2"
+                        class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title">VM Allocation and Energy Minimization</h5>
+                        <a href="https://github.com/SHASHI77777" class="btn btn-primary">GitHub</a>
+                        <a href="https://github.com/SHASHI77777" class="btn btn-secondary">Live Demo</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./assets/Vm-Allocation-and-Energy-Minimzation-cloudsim-3.0.3.jpg" alt="Project 3"
+                        class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title">VM Allocation and Energy Minimization</h5>
+                        <a href="https://github.com/SHASHI77777" class="btn btn-primary">GitHub</a>
+                        <a href="https://github.com/SHASHI77777" class="btn btn-secondary">Live Demo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container py-5 text-center">
+        <h1 class="fs-3">Contact</h1>
+        <p class="fs-5 text-muted">
+            Feel free to reach out to me if you'd like to collaborate or discuss any potential opportunities.
+        </p>
+        <div class="contact-links">
+            <a href="mailto:shashikant.20it@rcciit.org" class="btn btn-primary rounded-pill me-2">Email</a>
+            <a href="https://www.linkedin.com/in/shashikant-singh-bb1b35175/"
+                class="btn btn-info rounded-pill me-2">LinkedIn</a>
+            <a href="https://github.com/SHASHI77777" class="btn btn-dark rounded-pill me-2">GitHub</a>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="text-center py-4 bg-light">
+        <p>&copy; 2025 Shashikant Singh. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS & Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
