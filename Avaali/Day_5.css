@@ -1,0 +1,323 @@
+/* General Styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    scroll-behavior: smooth;
+  }
+/* Navbar Brand Styling */
+.navbar-brand {
+    letter-spacing: 3px;
+  }
+  
+  .navbar-brand img {
+    width: 70%;
+    height: auto;
+  }
+  
+  /* Fix the bar at the top and adjust padding/margin for different screen sizes */
+  #nav {
+    top: 0;
+    width: 100%;
+    background-color: #f8f9fa; /* Light background for the navbar */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for elevation */
+  }
+  
+  /* Style for icons in the logo */
+  #nav .logo i {
+    color: #e83b5d;
+    font-size: 18px;
+    border: 2px solid #e83b5d;
+    padding: 8px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  /* Spacing for the logo and content */
+  #nav .div1 {
+    padding-top: 5px;
+    align-items: center; /* Ensure content is vertically aligned */
+  }
+  
+  /* Content padding */
+  #nav .content {
+    padding-left: 10px;
+  }
+  
+  /* Link styles */
+  #nav div > a {
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  #nav .content span {
+    font-size: 12px;
+    color: #555;
+  }
+  
+  /* Adjust row width */
+  #nav .row {
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap; /* Ensure items wrap properly on smaller screens */
+  }
+  
+  /* Responsive adjustments for small devices */
+  @media (max-width: 768px) {
+    #nav .div1 {
+      padding-top: 10px;
+      flex-direction: column; /* Stack items vertically */
+      text-align: center;
+    }
+  
+    #nav .content {
+      padding-left: 0;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    #nav .logo i, #nav div > a, #nav .content span {
+      display: none; /* Hide elements on very small screens */
+    }
+  }
+  
+  /* Navbar Hover Effects */
+  .navbar-nav .nav-item .nav-link:hover {
+    color: #f8f9fa;
+    text-decoration: underline;
+  }
+  
+  /* Navbar Transition Effects */
+  .navbar {
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar-toggler-icon {
+    transition: transform 0.3s ease;
+  }
+  
+  .navbar-toggler-icon:hover {
+    transform: rotate(90deg);
+  }
+  .logo{
+    margin-right: 10px;
+    padding-top: 15px;
+}
+ 
+.logo i{
+    color: #e83b5d;
+        font-size: 18px;
+        border: 2px solid #e83b5d;
+        padding: 8px;
+}
+
+  .dropdown-menu {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    opacity: 1;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #f0ad4e;
+    color: white;
+  }
+  
+  /* Carousel Styling */
+  #services .carousel-item img {
+    width: 90%;
+    height: 400px;
+    border: solid 0px ;
+    border-radius: 10px;
+    margin: 5%;
+  }
+  
+ 
+  
+  /* Footer Styling */
+  footer {
+    background-color: #343a40;
+    color: white;
+  }
+  
+  footer i {
+    transition: color 0.3s ease;
+  }
+  
+  footer i:hover {
+    color: #f0ad4e;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .carousel-item img {
+      height: 300px;
+    }
+    .card-img {
+      height: 150px; /* Smaller image height on smaller screens */
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .carousel-item img {
+      height: 250px;
+    }
+  }
+  
+
+
+  /* Services */
+  #services  h1 {
+    font-weight: 700;
+    font-size: 2.5rem;  /* Adjust size as per requirement */
+    letter-spacing: 1px;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+
+  /* Styling for the p tag */
+  #services p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1.125rem;  /* Adjust size as per requirement */
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 2rem;
+  }
+
+
+ 
+
+  /* Awards  */
+  /* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#Awards {
+    background-color: #f8f9fa;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+#Awards h3 {
+    color: #dc3545;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    text-align: center;
+}
+#Awards h1{
+    font-size: 1.8rem;
+    color: #dc3545;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    text-align: center;
+}
+#Awards .carousel-item img {
+    width: 90%;
+    height: 200px;
+    border: solid 0px ;
+    border-radius: 10px;
+    margin: 5%;
+  }
+
+#Awards p, #services p {
+    color: #184f7f;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+}
+
+/* Card Styles */
+#services .card {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+#services .card img {
+    border-bottom: 1px solid #dee2e6;
+    max-height: 350px;
+    width: 90%;
+}
+
+#services .card-title {
+    font-size: 1.25rem;
+    color: #343a40;
+    margin-bottom: 0.5rem;
+}
+
+.card-text {
+    font-size: 0.95rem;
+    color: #6c757d;
+}
+
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    section#Awards {
+        padding: 1.5rem;
+    }
+
+    section#Awards h1 {
+        font-size: 1.75rem;
+    }
+
+    section#Awards p {
+        font-size: 0.95rem;
+    }
+
+    .card-title {
+        font-size: 1.15rem;
+    }
+
+    .card-text {
+        font-size: 0.85rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        padding: 0.25rem;
+        width: 2rem;
+        height: 2rem;
+    }
+
+    section#Awards h1 {
+        font-size: 1.5rem;
+    }
+
+    .card img {
+        max-height: 150px;
+    }
+}
+
+  h1{
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+}
+#footer {
+    background-color: #1B273D;
+}
+
+

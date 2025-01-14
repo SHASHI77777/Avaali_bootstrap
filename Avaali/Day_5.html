@@ -1,0 +1,698 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap and Font Awesome CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="Day_5.css">
+
+  <!-- Favicon -->
+
+
+  <link rel="icon" href="./image/icon.jpg">
+  <!-- Font Awesome 4 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <title>Avaali Solution</title>
+</head>
+
+
+<body>
+  <!-- First Navbar: Visible only on large screens -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light   d-none d-lg-block" id="nav">
+    <div class="container-fluid">
+      <div class="row w-100">
+        <div class="col-12 col-md-3 d-flex div1">
+          <div class="logo">
+            <i class="fa fa-briefcase"></i>
+          </div>
+          <div class="content">
+            <a href="https://www.avaali.com/careers/" class="mt-2 text-decoration-none">Careers at Avaali</a><br>
+            <span><a href="mailto:info@avaali.com" class="text-decoration-none bg-black"></a> info@avaali.com</span>
+          </div>
+        </div>
+        <div class="col-12 col-md-3 d-flex div1">
+          <div class="logo">
+            <i class="fa fa-users"></i>
+          </div>
+          <div class="content">
+            <a href="https://www.avaali.com/janus/" class="mt-2 text-decoration-none">Janus</a><br>
+            <span>Source to pay user group</span>
+          </div>
+        </div>
+        <div class="col-12 col-md-3 d-flex div1 mb-3">
+          <div class="logo">
+            <i class="fa fa-home"></i>
+          </div>
+          <div class="content">
+            <a href="https://www.avaali.com/illuminar/" class="mt-2 text-decoration-none">Illuminar</a><br>
+            <span>The Digital Enterprise Digest</span>
+          </div>
+        </div>
+        <div class="col-12 col-md-3 d-flex div1 mb-3">
+          <div class="logo">
+            <i class="fa-regular fa-newspaper"></i>
+          </div>
+          <div class="content">
+            <a href="https://www.avaali.com/news-media/latest-news/" class="mt-2 text-decoration-none">Media
+              Coverage</a><br>
+            <span>Latest Media Coverage</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1 col-sm-1 hidden-xs">
+        <i class="fa fa-search"></i>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- Second Navbar: Visible on all devices -->
+  <navbar>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary text-center py-2 px-4 ">
+      <div class="container-fluid me-3">
+        <a class="navbar-brand fs-3 row col-lg-auto" href="#">
+          <img src="./image/Avaali_Logo.jpg" alt="Logo" class="img-fluid">
+        </a>
+        <button class="navbar-toggler bg-transparent" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse fs-5 me-2" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item text-dark">
+              <a class="nav-link active " aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white" href="#about" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                About Us
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Product</a></li>
+                <li><a class="dropdown-item" href="#">Location</a></li>
+                <li><a class="dropdown-item" href="#">Achievement</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="s">Awards</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#services">Our Clients</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#Awards">News</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Services
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Product</a></li>
+                <li><a class="dropdown-item" href="#">Location</a></li>
+                <li><a class="dropdown-item" href="#">Achievement</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Career</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#services">Vertical Solution</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#service">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link bg-light text-dark px-3 mx-3 rounded-3" href="#footer">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </navbar>
+
+  <!-- Slide Section -->
+
+  <section>
+    <div class="container" id="banner">
+      <div class="row px-2">
+        <div class="col-sm-12 col-md-12 col-lg-12 col-12 pt-5 mb-2">
+          <img src="./image/avaali-main-banner1.jpg" alt="" class="img-fluid">
+          <div id="carouselExampleControls" class="carousel slide my-5 text-center" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <h1 class="fs-2 mb-4"> About Our Own Product <span class="text-danger"> Velocious</span></h1>
+                <img src="./image/Velocious_banner.jpg" alt="velo" class="img-fluid carousel-image">
+              </div>
+              <div class="carousel-item mb-2">
+                <h1 class="fs-2 mb-4"> About Our Digital <span class="text-danger">Transformation</span></h1>
+                <img src="./image/Avaali_Services_DigitalTransformation1.jpg" alt="Transformation"
+                  class="img-fluid carousel-image">
+              </div>
+              <div class="carousel-item">
+                <h1 class="fs-2 mb-4"> About Our Consulting <span class="text-danger">Services</span></h1>
+                <img src="./image/Avaali_Services_ConsultingServices.jpg" alt="consulting"
+                  class="img-fluid carousel-image">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- What we do Section -->
+  <section id="services" class="p-4 my-5">
+    <div class="text-center mb-2">
+      <h1 class="fs-2 mb-4 text-center"> EVP Champions <span class="text-danger"> Drive </span></h1>
+    </div>
+    <p class="m-5 fs-5">
+      Happy to share that Avaali has been highlighted as a case in point for our “EVP Champions Drive” at the Gartner
+      IT Symposium/Xpo, 2022! Our Employee Value Proposition has enabled us to create an environment where employees
+      feel empowered to be autonomous, innovative, and collaborative. This focus on the EVP has gone a long way in
+      enhancing the employee experience and lowering attrition significantly. We are proud of our achievements and
+      excited to continue driving employee engagement through this successful initiative.
+    </p>
+
+    <div id="carouselExample" class="carousel slide my-" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-12 col-md-4 mb-4">
+                <div class="card border rounded-1 shadow-sm">
+                  <div class="card-body">
+                    <img src="./image/avaali_card.jpg" alt="card" class="img-fluid rounded-3">
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4 mb-4">
+                <div class="card bg-light border rounded-3 shadow-sm">
+                  <div class="card-body">
+                    <img src="./image/avaali_card_2.jpg" alt="card" class="img-fluid rounded-3">
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4 mb-4">
+                <div class="card border rounded-3 shadow-sm">
+                  <div class="card-body">
+                    <img src="./image/avaali_card_3.jpg" alt="card" class="img-fluid rounded-3">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-12 col-md-4 mb-4">
+                <div class="card border rounded-3 shadow-sm">
+                  <div class="card-body">
+                    <img src="./image/avaali_card_4.jpg" alt="card" class="img-fluid rounded-3">
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-md-4 mb-4">
+                <div class="card border rounded-3 shadow-sm">
+                  <div class="card-body">
+                    <img src="./image/1733892744760.jpg" alt="card" class="img-fluid rounded-3">
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-md-4 mb-4">
+                <div class="card border rounded-3 shadow-sm">
+                  <div class="card-body">
+                    <img src="./image/1734500160723.jpg" alt="card" class="img-fluid rounded-3">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- Customer Success Stories  Section -->
+
+  <section id="service" class="p-4 my-5 container-fluid">
+    <div class="text-center mb-4">
+      <h1 class="fs-2 mb-4 text-center">Customer Success <span class="text-danger">Stories</span></h1>
+    </div>
+
+    <div class="container">
+      <div class="row justify-content-center">
+        <!-- Card 1 -->
+        <div class="col-12 col-md-4 mb-4">
+          <div class="card shadow-sm border-0 rounded-3 h-100">
+            <img src="./image/accounting.jpg" alt="card" class="img-fluid rounded-3 card-img-top">
+            <div class="card-body d-flex flex-column">
+              <p class="card-text">Tata Projects’ Best in Class Accounts Payable Process, Empowered by Avaali</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-12 col-md-4 mb-4">
+          <div class="card shadow-sm border-0 rounded-3 h-100">
+            <img src="./image/icon2-steel.png" alt="card" class="img-fluid rounded-3 card-img-top">
+            <div class="card-body d-flex flex-column">
+              <p class="card-text">Tata BlueScope, one of India’s leading manufacturers of coated steel solutions
+                increases Accounts Payable process efficiency</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-12 col-md-4 mb-4">
+          <div class="card shadow-sm border-0 rounded-3 h-100">
+            <img src="./image/icon-3.jpg" alt="card" class="img-fluid rounded-3 card-img-top">
+            <div class="card-body d-flex flex-column">
+              <p class="card-text">Tata AutoComp leverages OpenText and Avaali to manage data growth, compliance, and
+                document management.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="col-12 col-md-4 mb-4">
+          <div class="card shadow-sm border-0 rounded-3 h-100">
+            <img src="./image/icon-4.jpg" alt="card" class="img-fluid rounded-3 card-img-top">
+            <div class="card-body d-flex flex-column">
+              <p class="card-text">Borosil Group leverages Avaali and OpenText Vendor Invoice Management to automate
+                their shared services centre for Accounts Payable process</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="col-12 col-md-4 mb-4">
+          <div class="card shadow-sm border-0 rounded-3 h-100">
+            <img src="./image/icon_5.jpg" alt="card" class="img-fluid rounded-3 card-img-top">
+            <div class="card-body d-flex flex-column">
+              <p class="card-text">Bidco Africa, East Africa’s leading manufacturer of FMCG achieves superior ssc
+                transformation with OpenText Vendor Invoice Management solution.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="col-12 col-md-4 mb-4">
+          <div class="card shadow-sm border-0 rounded-3 h-100">
+            <img src="./image/icon_6.jpg" alt="card" class="img-fluid rounded-3 card-img-top">
+            <div class="card-body d-flex flex-column">
+              <p class="card-text">One of India’s largest Petroleum PSUs, India’s second-largest government-owned
+                hydrocarbon exploration and production company, automates their Procure to Pay Processes</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 7 -->
+        <div class="col-12 col-md-4 mb-4">
+          <div class="card shadow-sm border-0 rounded-3 h-100">
+            <img src="./image/icon_7.jpg" alt="card" class="img-fluid rounded-3 card-img-top">
+            <div class="card-body d-flex flex-column">
+              <p class="card-text">Medi-clinic, an international private hospital group with operations in UAE, South
+                Africa, Namibia and Switzerland automates its accounts payable function.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 8 -->
+        <div class="col-12 col-md-4 mb-4">
+          <div class="card shadow-sm border-0 rounded-3 h-100">
+            <img src="./image/icon_8.jpg" alt="card" class="img-fluid rounded-3 card-img-top">
+            <div class="card-body d-flex flex-column">
+              <p class="card-text">Manipal Hospitals, one of India’s largest multi-specialty hospital chains, adopts RPA
+                (Robotic process automation) to automate its Finance & Accounting processes</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 9 -->
+        <div class="col-12 col-md-4 mb-4">
+          <div class="card shadow-sm border-0 rounded-3 h-100">
+            <img src="./image/icon_9.jpeg" alt="card" class="img-fluid rounded-3 card-img-top">
+            <div class="card-body d-flex flex-column">
+              <p class="card-text">Croma leverages OpenText and Avaali to manage data growth, compliance, and document
+                management.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Awards Sections  -->
+
+  <section id="Awards" class="p-5 my-5">
+    <div class="text-center mb-2">
+      <h1 class="fs-2 mb-4 text-center"><span class="text-danger">AWARDS</span></h1>
+    </div>
+
+    <p class="m-5 fs-5">
+      Happy to share that Avaali has been highlighted as a case in point for our “EVP Champions Drive” at the Gartner
+      IT Symposium/Xpo, 2022! Our Employee Value Proposition has enabled us to create an environment where employees
+      feel empowered to be autonomous, innovative, and collaborative. This focus on the EVP has gone a long way in
+      enhancing the employee experience and lowering attrition significantly. We are proud of our achievements and
+      excited to continue driving employee engagement through this successful initiative.
+    </p>
+
+    <div id="carouselAwards" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <!-- Carousel Item 1 -->
+        <div class="carousel-item active">
+          <div class="container">
+            <div class="row justify-content-center ">
+              <!-- Card 1 -->
+              <div class="col-12 col-md-4 mb-4">
+                <div class="card border rounded-3 shadow-sm h-100 ">
+                  <img src="./image/avaali-award_1.jpg" alt="award1" class="card-img-top">
+                  <div class="card-body">
+                    <h3 class="card-title">Business Icons of India 2022 in Association with ZEE Business</h3>
+                    <p class="card-text">Avaali Solutions, was presented the prestigious Business Icons of India 2022
+                      Award by Zee Business and MarksmenDaily.com.</p>
+                  </div>
+                </div>
+              </div>
+              <!-- Card 2 -->
+              <div class="col-12 col-md-4 mb-4">
+                <div class="card border rounded-3 shadow-sm h-100">
+                  <img src="./image/avaali-award_2.jpg" alt="award2" class="card-img-top">
+                  <div class="card-body">
+                    <h3 class="card-title">BCIC - Emerging Star Award 2021</h3>
+                    <p class="card-text">Avaali Solutions was selected Winner in the maiden edition of the Emerging
+                      Stars Awards instituted by (BCIC).</p>
+                  </div>
+                </div>
+              </div>
+              <!-- Card 3 -->
+              <div class="col-12 col-md-4 mb-4">
+                <div class="card border rounded-3 shadow-sm h-100">
+                  <img src="./image/avaali-award_3.jpg" alt="award3" class="card-img-top">
+                  <div class="card-body">
+                    <h3 class="card-title">World Leadership Congress – Business Leader of the Year 2021</h3>
+                    <p class="card-text">Avaali Solutions was awarded the business leader of the year award for
+                      leveraging IT for business performance in the 19th global edition.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Carousel Item 2 -->
+        <div class="carousel-item">
+          <div class="container">
+            <div class="row justify-content-center">
+              <!-- Card 4 -->
+              <div class="col-12 col-md-4 mb-4">
+                <div class="card border rounded-3 shadow-sm h-100">
+                  <img src="./image/avaali-award_4.jpg" alt="award4" class="card-img-top">
+                  <div class="card-body">
+                    <h3 class="card-title">SAP ACE Awards winner 2020</h3>
+                    <p class="card-text">Award for Financial Excellence for transformation at Nayara Energy, India’s
+                      second largest single site refinery.</p>
+                  </div>
+                </div>
+              </div>
+              <!-- Card 5 -->
+              <div class="col-12 col-md-4 mb-4">
+                <div class="card border rounded-3 shadow-sm h-100">
+                  <img src="./image/avaali-award_5.jpg" alt="award5" class="card-img-top">
+                  <div class="card-body">
+                    <h3 class="card-title">‘The Economic Times Promising Brands <br> 2019-2020' </h3>
+                    <p class="card-text">In continuation of Best Brand series by The Economic Times, Avaali was awarded
+                      ‘Promising Brands 2019-20′</p>
+                  </div>
+                </div>
+              </div>
+              <!-- Card 6 -->
+              <div class="col-12 col-md-4 mb-4 text-cente">
+                <div class="card border rounded-3  h-100">
+                  <img src="./image/avaali-award_6.jpg" alt="award6" class="card-img-top">
+                  <div class="card-body">
+                    <h3 class="card-title r">Dun &amp; Bradstreet – Leading SME of India 2020</h3>
+                    <p class="card-text">Avaali is proud to be recognized by Dun &amp; Bradstreet as the Leading SME’s
+                      of India, 2020 in their publication..</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Carousel Item 3 -->
+        <div class="carousel-item">
+          <div class="container">
+            <div class="row justify-content-center">
+              <!-- Card 7 -->
+              <div class="col-12 col-md-4 mb-4">
+                <div class="card border rounded-3 shadow-sm h-100">
+                  <img src="./image/avaali-award_7.jpg" alt="award7" class="card-img-top">
+                  <div class="card-body">
+                    <h3 class="card-title">UIPath Emerging Partner of the Year 2020</h3>
+                    <p class="card-text">Avaali Solutions have been recognized by UIPath as “Emerging Partner of the
+                      Year” in their maiden edition of Partner Excellence Awards, 2020.</p>
+                  </div>
+                </div>
+              </div>
+              <!-- Card 8 -->
+              <div class="col-12 col-md-4 mb-4">
+                <div class="card border rounded-3  h-100">
+                  <img src="./image/avaali-award_8.jpg" alt="award8" class="card-img-top">
+                  <div class="card-body">
+                    <h3 class="card-title">SAP ACE Awards</h3>
+                    <p class="card-text">Award for Financial Excellence for transformation at ReNew Power, India’s
+                      largest renewable energy company.</p>
+                  </div>
+                </div>
+              </div>
+              <!-- Card 9 -->
+              <div class="col-12 col-md-4 mb-4">
+                <div class="card border rounded-3 shadow-sm h-100">
+                  <img src="./image/avaali-award_9.jpg" alt="award9" class="card-img-top">
+                  <div class="card-body">
+                    <h3 class="card-title">Economic Times Startup Awards 2018</h3>
+                    <p class="card-text">Avaali Solutions selected as the top five finalist for the “Bootstrap Champ”
+                      award which is a part of the Economic Times Start-up Awards 2018</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Carousel Controls -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselAwards" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselAwards" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+
+  <!-- Solution Section -->
+
+  <section id="solution" class="p-4 my-5 container-fluid">
+    <div class="text-center mb-4">
+      <h1 class="fs-2 mb-4 text-center">Our <span class="text-danger">Solutions</span></h1>
+    </div>
+    <div class="container">
+      <div class="row justify-content-center">
+        <!-- Card 1 -->
+        <div class="col-12 col-md-3 mb-4">
+          <div class="card  border-0 rounded-3 h-100">
+            <img src="./image/RPA.jpg" alt="card" class="img-fluid rounded-3 card-img-top">
+            <div class="card-body d-flex flex-column text-center">
+              <h5 class="card-title  text-danger">RPA</h5>
+            </div>
+          </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="col-12 col-md-3 mb-4">
+          <div class="card  border-0 rounded-3 h-100">
+            <img src="./image/ECM.jpg" alt="card" class="img-fluid rounded-3 card-img-top">
+            <div class="card-body d-flex flex-column text-center">
+              <h5 class="card-title ">ECM</h5>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-12 col-md-3 mb-4">
+          <div class="card  border-0 rounded-3 h-100">
+            <img src="./image/AP-Invoice-Automation1.jpg" alt="card" class="img-fluid rounded-3 card-img-top">
+            <div class="card-body d-flex flex-column text-center">
+              <h5 class="card-title ">AP Invoice Automation </h5>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="col-12 col-md-3 mb-4">
+          <div class="card  border-0 rounded-3 h-100">
+            <img src="./image/OCR.jpg" alt="card" class="img-fluid rounded-3 card-img-top">
+            <div class="card-body d-flex flex-column  text-center ">
+              <h5 class="card-title "> OCR </h5>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="col-12 col-md-3 mb-4">
+          <div class="card  border-0 rounded-3 h-100">
+            <img src="./image/Digital-signature.jpg" alt="card" class="img-fluid rounded-3 card-img-top">
+            <div class="card-body d-flex flex-column  text-center">
+              <h5 class="card-title "> Digital signature </h5>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="col-12 col-md-3 mb-4">
+          <div class="card  border-0 rounded-3 h-100">
+            <img src="./image/Workflow-automation.jpg" alt="card" class="img-fluid rounded-3 card-img-top">
+            <div class="card-body d-flex flex-column text-center">
+              <h5 class="card-title "> Workflow automation </h5>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 7 -->
+        <div class="col-12 col-md-3 mb-4">
+          <div class="card  border-0 rounded-3 h-100  text-center ">
+            <img src="./image/Data-and-Document-Archiving.jpg" alt="card" class="img-fluid rounded-3 card-img-top">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title "> Data and Document Archiving </h5>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 8 -->
+        <div class="col-12 col-md-3 mb-4">
+          <div class="card  border-0 rounded-3 h-100 text-center">
+            <img src="./image/Financial-process-automation.jpg" alt="card" class="img-fluid rounded-3 card-img-top">
+            <div class="card-body d-flex flex-column text-center">
+              <h5 class="card-title ">Financial process automation</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+  <!-- About us  Section -->
+
+
+  <section class="p-2 my-3 bg- text-dark text-center container-fluid " id="about">
+    <div class="row justify-content-center align-items-center ">
+      <div class="col-lg-12 col-md-10  ">
+        <h1 class="fs-2 mb-4 text-center">About <span class=" fs-2 text-danger">Us</span></h1>
+        <p class="m-4 fs-5 text-secondary">
+          Avaali is a prominent digital solutions provider, specializing in cost-effective solutions for upper
+          mid to large enterprises. With over 160 successful engagements across Asia, MEA, and parts of Europe, Avaali
+          has
+          demonstrated expertise in shared service automation, delivering significant reductions in process cycle time
+          (35-50%) and costs (10-15%). Operating under Velocious, Avaali offers both product lines and consulting
+          services
+          in collaboration with various technology vendors, focusing on improved visibility, governance, and
+          transparency.
+          Notably, Avaali is a leader in procure-to-pay automation, boasting over 100 successful implementations in this
+          domain.
+        </p>
+        <button class="btn btn-primary fw-bold px-4 py-2 rounded-pill">
+          Book a Demo
+        </button>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Footer Section -->
+  <footer id="footer" class="bg-secondary text-white text-center p-4 py-5 ">
+    <i class="fa fa-facebook fs-2 mx-2"></i>
+    <i class="fa fa-instagram fs-2 mx-2"></i>
+    <i class="fa fa-whatsapp fs-2 mx-2"></i>
+    <i class="fa fa-twitter fs-2 mx-2"></i>
+    <i class="fa fa-linkedin fs-2 mx-2"></i>
+
+    <div class="container-fluid  text-white text-center ">
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-6 my-2">
+          <p><i class="fa fa-envelope" aria-hidden="true"></i> info@avaali.Com
+
+          </p>
+          <i class="fa fa-phone ms-3" aria-hidden="true "></i> Call Us +12 345 678
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6">
+          <p><i class="fa fa-clock-o" aria-hidden="true"></i>
+            Mon - Fri : 9:00am To 6:30pm
+          </p>
+
+        </div>
+        <p class="text-center">&copy; 2025 Avaali Solutions Pvt Ltd. All right reserved</p>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
